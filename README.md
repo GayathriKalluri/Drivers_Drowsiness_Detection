@@ -2,28 +2,27 @@
 A real-time Driver Drowsiness Detection System using OpenCV and dlib to monitor driver alertness by analyzing eye aspect ratio (EAR) and sounding an alarm if drowsiness is detected.
 
 # Features
-Real-time video capture and face/eye detection  
-Eye Aspect Ratio (EAR) based drowsiness detection  
-Alarm sound to alert the driver  
-Lightweight and easy to run on most systems  
+1. Real-time video capture and face/eye detection  
+2. Eye Aspect Ratio (EAR) based drowsiness detection  
+3. Alarm sound to alert the driver  
+4. Lightweight and easy to run on most systems  
 
 # Technologies Used
-Python 3.11  
-OpenCV  
-dlib  
-imutils  
-scipy  
-playsound  
+1. Python 3.11  
+2. OpenCV  
+3. dlib  
+4. imutils  
+5. scipy  
+6. playsound  
 
 # How It Works
-Captures video frames from the webcam.  
-Detects the face and eyes using dlib's 68 facial landmarks.  
-Calculates the Eye Aspect Ratio (EAR).  
-If the EAR is below a set threshold for several frames, an alarm is triggered.  
+1. Captures video frames from the webcam.  
+2. Detects the face and eyes using dlib's 68 facial landmarks.  
+3. Calculates the Eye Aspect Ratio (EAR).  
+4. If the EAR is below a set threshold for several frames, an alarm is triggered.  
 
 # Installation
 bash  
-git clone https://github.com/your-username/driver-drowsiness-detection.git  
 cd driver-drowsiness-detection  
 pip install -r requirements.txt  
 Important:  
@@ -58,6 +57,6 @@ driver-drowsiness-detection/
 └── requirements.txt  
 
 # Future Enhancements
-Night mode support using IR cameras  
-Advanced blink detection  
-Vehicle control system integration  
+1. Night mode support using IR cameras  
+2. Advanced blink detection  
+3. Vehicle control system integration  
