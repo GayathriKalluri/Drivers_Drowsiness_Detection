@@ -2,7 +2,7 @@
 A real-time Driver Drowsiness Detection System using OpenCV and dlib to monitor driver alertness by analyzing eye aspect ratio (EAR) and sounding an alarm if drowsiness is detected.
 
 # Features
-. Real-time video capture and face/eye detection
+Real-time video capture and face/eye detection  
 . Eye Aspect Ratio (EAR) based drowsiness detection
 . Alarm sound to alert the driver
 . Lightweight and easy to run on most systems
